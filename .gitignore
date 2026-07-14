@@ -35,7 +35,7 @@ multirun/
 .hydra/
 
 # DVC
-/data/raw.dvc
+
 
 # Jupyter
 .ipynb_checkpoints/
