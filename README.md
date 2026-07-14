@@ -18,7 +18,7 @@ uv sync
 \`\`\`
 
 ## Project structure
-\`\`\`
+\`\`\`bash
 configs/     — Hydra configs (data, model, train)
 data/        — raw / interim / processed (DVC-tracked, not in git)
 src/         — installable package (scene_classifier)
