@@ -1,0 +1,33 @@
+[project]
+name = "scene-classifier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Oladimeji", email = "boladimeji834@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "dvc>=3.67.1",
+    "hydra-core>=1.3.4",
+    "mlflow>=3.14.0",
+    "omegaconf>=2.3.1",
+    "pillow>=12.3.0",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.2",
+    "scikit-learn>=1.7.2",
+    "torch>=2.13.0",
+    "torchvision>=0.28.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.28,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=2.3.0",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.15.21",
+]

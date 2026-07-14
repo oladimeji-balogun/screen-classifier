@@ -1,0 +1,52 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data (tracked via DVC, not git)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Models / checkpoints (large binaries, not git-tracked)
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Hydra outputs (auto-generated run dirs)
+outputs/
+multirun/
+.hydra/
+
+# DVC
+/data/raw.dvc
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/*.ipynb_checkpoints
+
+# Environment
+.env
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
