@@ -13,16 +13,16 @@
 Under active development -- Milestone 0 (scaffolding) complete.
 
 ## Setup
-\`\`\`bash
+```bash
 uv sync
-\`\`\`
+```
 
 ## Project structure
-\`\`\`bash
-configs/     — Hydra configs (data, model, train)
-data/        — raw / interim / processed (DVC-tracked, not in git)
-src/         — installable package (scene_classifier)
-tests/       — unit tests, mirrors src/
-scripts/     — CLI entrypoints (train.py, evaluate.py, predict.py)
-models/      — saved checkpoints (not in git)
-\`\`\`
+```bash
+configs/     - Hydra configs (data, model, train)
+data/        - raw / interim / processed (DVC-tracked, not in git)
+src/         - installable package (scene_classifier)
+tests/       - unit tests, mirrors src/
+scripts/     - CLI entrypoints (train.py, evaluate.py, predict.py)
+models/      - saved checkpoints (not in git)
+```
